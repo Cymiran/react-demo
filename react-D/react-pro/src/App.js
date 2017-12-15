@@ -6,7 +6,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Button type="primary">动我试试</Button>
+        <Button type="primary">再动我一下试试</Button>
       </div>
     );
   }
