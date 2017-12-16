@@ -18,6 +18,9 @@
     margin-right: 20px;
 }
 .footer{
+    /* position: absolute;
+    bottom: 0;
+    left: 0; */
     width: 100%;
     padding: 50px;
     background: #000;
@@ -34,4 +37,20 @@ h2.commTitle{
 .chart{
     display: flex;
     justify-content: center;
+}
+.edit-main{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.append-class{
+    margin-top: 20px;
+}
+.rdw-editor-wrapper {
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    min-height: 500px;
+    border: 1px solid #f1f1f1;
+    border-top: 0;
+    margin-bottom: 20px;
 }
