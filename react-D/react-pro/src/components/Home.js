@@ -1,4 +1,4 @@
-import React, { component, Component } from 'react';
+import React, { Component } from 'react';
 import { layout } from 'antd';
 
 import Banner from './Banner';
@@ -8,8 +8,6 @@ import '../style/commen.css'
 import '../style/Commstar.css'
 
 const { Content } = layout;
-const BgElement = Element.BgElement;
-
 
 export default class Home extends Component {
     render(){

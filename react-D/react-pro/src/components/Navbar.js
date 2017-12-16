@@ -1,4 +1,4 @@
-import React, { component, Component } from 'react';
+import React, {  Component } from 'react';
 import {Link} from 'react-router-dom';
 
 import { Layout, Menu, Switch, Avatar } from 'antd';
@@ -18,7 +18,7 @@ export default class Navbar extends Component {
     }
     render(){
         return (
-            <Header className={this.state.theme == 'dark'? "header-dark" : "header-light"}>
+            <Header className={this.state.theme === 'dark'? "header-dark" : "header-light"}>
                 <div className="logo" >
                     <Avatar style={{ backgroundColor: this.state.color, verticalAlign: 'middle' }} size="large">
                         {this.state.user}

@@ -1,4 +1,4 @@
-import React, { component, Component } from 'react';
+import React from 'react';
 import BannerAnim from 'rc-banner-anim';
 import QueueAnim from 'rc-queue-anim';
 import { TweenOneGroup } from 'rc-tween-one';
@@ -6,11 +6,6 @@ import Icon from 'antd/lib/icon';
 import PropTypes from 'prop-types';
 
 const Element = BannerAnim.Element;
-
-const textData = {
-  content: '尤雨溪毕业于上海复旦附中，在美国完成大学学业，本科毕业于Colgate University，后在Parsons设计学院获得Design & Technology艺术硕士学位，现任职于纽约Google Creative Lab。尤雨溪是Vue.js框架的作者，HTML5版Clear的打造人。他认为，未来App的趋势是轻量化和细化，能解决问题的应用就是好应用。而在移动互联网时代大的背景下，个人开发者的机遇在门槛低，成本低，跨设备和多平台四个方面。',
-  title: '尤雨溪',
-};
 
 let dataArray = [
   {

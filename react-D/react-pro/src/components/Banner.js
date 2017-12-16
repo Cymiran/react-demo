@@ -1,8 +1,7 @@
 import BannerAnim from 'rc-banner-anim';
 import TweenOne, { TweenOneGroup } from 'rc-tween-one';
 
-import React, { component, Component } from 'react';
-import { layout } from 'antd';
+import React from 'react';
 
 import 'rc-banner-anim/assets/index.css';
 import '../style/Banner.css'
